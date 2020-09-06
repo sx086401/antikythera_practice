@@ -1,0 +1,7 @@
+{
+  "hostname": "localhost",
+  "username": "postgres",
+  "password": "postgres",
+  "database": "antikythera_practice_test",
+  "ssl": false
+}
