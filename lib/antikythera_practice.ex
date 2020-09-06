@@ -1,4 +1,4 @@
-defmodule NewGear do
+defmodule AntikytheraPractice do
   use Antikythera.GearApplication
   alias Antikythera.{ExecutorPool, Conn}
 
@@ -14,6 +14,6 @@ defmodule NewGear do
   @spec executor_pool_for_web_request(Conn.t) :: ExecutorPool.Id.t
   def executor_pool_for_web_request(_conn) do
     # specify executor pool to use; change the following line if your gear serves to multiple tenants
-    {:gear, :new_gear}
+    {:gear, :antikythera_practice}
   end
 end

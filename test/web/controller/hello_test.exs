@@ -1,4 +1,4 @@
-defmodule NewGear.Controller.HelloTest do
+defmodule AntikytheraPractice.Controller.HelloTest do
   use ExUnit.Case
 
   test "hello should render HAML template as HTML" do
@@ -7,6 +7,6 @@ defmodule NewGear.Controller.HelloTest do
     assert response.headers["content-type"] == "text/html; charset=utf-8"
     body = response.body
     assert String.starts_with?(body, "<!DOCTYPE html>")
-    assert String.contains?(body, "Message from new_gear: こんにちは")
+    assert String.contains?(body, "Message from antikythera_practice: こんにちは")
   end
 end

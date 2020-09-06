@@ -1,4 +1,4 @@
-defmodule NewGear.Websocket do
+defmodule AntikytheraPractice.Websocket do
   #
   # If your gear needs to interact with clients via websocket protocol,
   # - declare a websocket route in your router,

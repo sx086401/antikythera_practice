@@ -13,12 +13,12 @@ try do
     end
   Code.require_file(Path.join([deps_dir, "antikythera", "mix_common.exs"]))
 
-  defmodule NewGear.Mixfile do
+  defmodule AntikytheraPractice.Mixfile do
     use Antikythera.GearProject, [
       antikythera_instance_dep: instance_dep,
     ]
 
-    defp gear_name(), do: :new_gear
+    defp gear_name(), do: :antikythera_practice
     defp version()  , do: "0.0.1"
     defp gear_deps() do
       [

@@ -1,3 +1,3 @@
-defmodule NewGear.Template do
+defmodule AntikytheraPractice.Template do
   use Antikythera.TemplatePrecompiler
 end
