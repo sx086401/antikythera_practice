@@ -12,6 +12,6 @@ defmodule AntikytheraPractice.Work do
   defun create_book(params :: v[map] \\ %{}) :: {:ok, map | :error, any} do
     %Book{}
     |> Book.changeset(params)
-    |> Repo.insert()
+    |> Repo.insert!()
   end
 end

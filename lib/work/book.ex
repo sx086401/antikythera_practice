@@ -10,6 +10,8 @@ defmodule AntikytheraPractice.Work.Book do
     field :title,               :string
     field :description,         :string, default: ""
     field :volume,              :integer
+
+    timestamps()
   end
 
   defun changeset(book :: Schema.t, attrs :: v[map]) :: Changeset.t do

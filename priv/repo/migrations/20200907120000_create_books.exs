@@ -9,7 +9,5 @@ defmodule AntikytheraPractice.Migrations.CreateBooks do
 
       timestamps()
     end
-
-    create index(:books, :category)
   end
 end
