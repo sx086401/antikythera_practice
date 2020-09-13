@@ -1,6 +1,7 @@
 # antikythera_practice
 
-This project is for practicing antikythera with postgres, run the test with the following command.
+This project is for practicing antikythera with postgres.
+Run the test with the following command.
 
 ``` shell
 
